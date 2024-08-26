@@ -1,0 +1,33 @@
+.starwars-bg {
+    background-image: url("https://media.istockphoto.com/id/1194080385/video/4k-video-footage-motion-of-shinny-stars-animation-on-black-background-graphic-motion-overlay.jpg?s=640x640&k=20&c=EFLldHDOb7owHuTvxz9B4odpxhWcmjYI7fpsl4fpgFY=") !important;
+  }
+  
+  .starwars-bg-color {
+    background-color: #a02733;
+    border-radius: 50%;
+  }
+  .starwars-bg-favorite-drop {
+    background: rgb(0, 0, 0, 0.7);
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1, 0.7) 0%,
+      rgba(80, 80, 96, 1, 0.7) 35%,
+      rgba(92, 91, 91, 1, 0.7) 100%
+    );
+    border: 1px white solid;
+  }
+  
+  .starwars-point-cursor {
+    cursor: pointer;
+  }
+  
+  .starwars-point-cursor:hover {
+    background: rgb(0, 0, 0, 0.7);
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1, 0.7) 0%,
+      rgba(80, 80, 96, 1, 0.7) 35%,
+      rgba(92, 91, 91, 1, 0.7) 100%
+    );
+    cursor: pointer;
+  }
